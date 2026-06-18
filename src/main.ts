@@ -76,7 +76,8 @@ const checkLowestRun = (): void => {
   console.log(`Lowest distance: ${lowestDistance}km`);
 };
 
-const checkAverageDistance = () => {
+//Check Average Distance
+const checkAverageDistance = (): void => {
   const averageDistance = totalDistance / runs.length;
   console.log(`Average Distance: ${averageDistance}`);
 };
